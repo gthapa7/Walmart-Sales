@@ -1,64 +1,79 @@
-# Walmart-Sales
-Walmart Weekly Sales Forecasting
+# Walmart Weekly Sales Forecasting
 
-This project provides a robust, end-to-end workflow for forecasting Walmart’s weekly sales using advanced machine learning models: Random Forest, XGBoost, and LightGBM.
+This project provides a **robust, end-to-end workflow** for forecasting Walmart’s weekly sales using advanced machine learning models: **Random Forest, XGBoost, and LightGBM**.
 
-The workflow covers data cleaning, feature engineering, model training, evaluation, and business insights with a strong focus on reproducibility and clarity.
+The workflow covers **data cleaning, feature engineering, model training, evaluation, and business insights** with a strong focus on **reproducibility and clarity**.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
 .
-├── Walmart.csv                # Raw data file
-├── data_cleaning.ipynb        # Data cleaning and EDA notebook
-├── Random_Forest.ipynb        # Random Forest modeling notebook
-├── XGBOOST.ipynb              # XGBoost modeling notebook
-├── LightGBM.ipynb             # LightGBM modeling notebook
-├── Comparision.ipynb          # Model comparison and visualization
-├── Requirements.ipynb         # Documentation of requirements and imports
-├── requirements.txt           # All dependencies for easy setup
+├── Walmart.csv # Raw data file
+├── data_cleaning.ipynb # Data cleaning and EDA notebook
+├── Random_Forest.ipynb # Random Forest modeling notebook
+├── XGBOOST.ipynb # XGBoost modeling notebook
+├── LightGBM.ipynb # LightGBM modeling notebook
+├── Comparision.ipynb # Model comparison and visualization
+├── Requirements.ipynb # Documentation of requirements and imports
+├── requirements.txt # All dependencies for easy setup
 └── src/
-    ├── __init__.py
-    └── models.py              # Model training and evaluation functions
-Data Cleaning & EDA
+├── init.py
+└── models.py # Model training and evaluation functions
 
-Handles missing values and outliers
 
-Explores key sales trends
+---
 
-Feature Engineering
+## 🧹 Data Cleaning & EDA
 
-Time-based features (Year, Month, Week, etc.)
+- Handles missing values and outliers  
+- Explores key sales trends  
 
-Lag & rolling statistics
+---
 
-Interaction & categorical features
+## ⚙️ Feature Engineering
 
-Model Training
+- Time-based features (Year, Month, Week, etc.)  
+- Lag & rolling statistics  
+- Interaction & categorical features  
 
-Modular functions for Random Forest, XGBoost, and LightGBM
+---
 
-Evaluation
+## 🧠 Model Training
 
-Metrics: RMSE, MAE, R²
+- Modular functions for Random Forest, XGBoost, and LightGBM  
 
-Fair model comparison
+---
 
-Visualization
+## 📊 Evaluation
 
-Actual vs. predicted plots
+- Metrics: **RMSE, MAE, R²**  
+- Fair model comparison  
 
-Feature importance
+---
 
-Error analysis
+## 📈 Visualization
 
-Reproducibility
+- Actual vs. predicted plots  
+- Feature importance  
+- Error analysis  
 
-All code and requirements are documented for easy reuse
+---
 
-⚙️ How to Use
-1. Install dependencies
+## 🔄 Reproducibility
+
+- All code and requirements are documented for easy reuse  
+
+---
+
+## ⚙️ How to Use
+
+1. **Install dependencies**  
+```bash
 pip install -r requirements.txt
 
-2. Run the notebooks in order
+
+Run the notebooks in order:
 
 data_cleaning.ipynb
 
@@ -66,7 +81,7 @@ Random_Forest.ipynb / XGBOOST.ipynb / LightGBM.ipynb
 
 Comparision.ipynb
 
-3. Use modular functions
+Use modular functions
 
 The models.py script contains reusable functions for training and evaluating models in your own notebooks or scripts.
 
@@ -76,7 +91,7 @@ All dependencies are listed in requirements.txt
 
 Detailed explanation in Requirements.ipynb
 
-📊 Results
+🏆 Results
 
 LightGBM achieved the best performance:
 
