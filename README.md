@@ -65,25 +65,6 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 - All code and requirements are documented for easy reuse  
 
 ---
-
-## ⚙️ How to Use
-
-1. **Install dependencies**  
-```bash
-pip install -r requirements.txt
-
-## ⚙️ How to Use
-
-1. **Run the notebooks in order:**  
-   - `data_cleaning.ipynb`  
-   - `Random_Forest.ipynb` / `XGBOOST.ipynb` / `LightGBM.ipynb`  
-   - `Comparision.ipynb`  
-
-2. **Use modular functions:**  
-   - The `models.py` script contains reusable functions for training and evaluating models in your own notebooks or scripts.  
-
-<!-- Blank line above next heading -->
-
 ## 📦 Requirements
 
 - All dependencies are listed in `requirements.txt`  
@@ -104,6 +85,15 @@ pip install -r requirements.txt
 
 This project is for **educational and demonstration purposes**.  
 Feel free to **copy, modify, and expand** this repository.  
+
+---
+
+## ⚙️ How to Use
+
+1. **Install dependencies**  
+```bash
+pip install -r requirements.txt
+ 
 
 
 
