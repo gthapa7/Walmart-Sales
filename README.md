@@ -82,8 +82,6 @@ pip install -r requirements.txt
 2. **Use modular functions:**  
    - The `models.py` script contains reusable functions for training and evaluating models in your own notebooks or scripts.  
 
----
-
 
 ## 📦 Requirements
 
