@@ -72,36 +72,36 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 ```bash
 pip install -r requirements.txt
 
+## ⚙️ How to Use
 
-Run the notebooks in order:
+1. **Run the notebooks in order:**  
+   - `data_cleaning.ipynb`  
+   - `Random_Forest.ipynb` / `XGBOOST.ipynb` / `LightGBM.ipynb`  
+   - `Comparision.ipynb`  
 
-data_cleaning.ipynb
+2. **Use modular functions:**  
+   - The `models.py` script contains reusable functions for training and evaluating models in your own notebooks or scripts.  
 
-Random_Forest.ipynb / XGBOOST.ipynb / LightGBM.ipynb
+---
 
-Comparision.ipynb
+## 📦 Requirements
 
-Use modular functions
+- All dependencies are listed in `requirements.txt`  
+- Detailed explanation in `Requirements.ipynb`  
 
-The models.py script contains reusable functions for training and evaluating models in your own notebooks or scripts.
+---
 
-📦 Requirements
+## 🏆 Results
 
-All dependencies are listed in requirements.txt
+- **LightGBM** achieved the best performance:  
+  - Lowest RMSE & MAE  
+  - Highest R²  
+- All models provide strong predictive accuracy, but **LightGBM is recommended for deployment**.  
 
-Detailed explanation in Requirements.ipynb
+---
 
-🏆 Results
+## 📜 License
 
-LightGBM achieved the best performance:
+This project is for **educational and demonstration purposes**.  
+Feel free to **copy, modify, and expand** this repository.  
 
-Lowest RMSE & MAE
-
-Highest R²
-
-All models provide strong predictive accuracy, but LightGBM is recommended for deployment.
-
-📜 License
-
-This project is for educational and demonstration purposes.
-Feel free to copy, modify, and expand this repository.
