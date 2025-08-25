@@ -6,7 +6,18 @@ This project provides a robust, end-to-end workflow for forecasting Walmart’s 
 The workflow covers data cleaning, feature engineering, model training, evaluation, and business insights with a strong focus on reproducibility and clarity.
 
 📂 Project Structure
-
+.
+├── Walmart.csv                # Raw data file
+├── data_cleaning.ipynb        # Data cleaning and EDA notebook
+├── Random_Forest.ipynb        # Random Forest modeling notebook
+├── XGBOOST.ipynb              # XGBoost modeling notebook
+├── LightGBM.ipynb             # LightGBM modeling notebook
+├── Comparision.ipynb          # Model comparison and visualization
+├── Requirements.ipynb         # Documentation of requirements and imports
+├── requirements.txt           # All dependencies for easy setup
+└── src/
+    ├── __init__.py
+    └── models.py              # Model training and evaluation functions
 Data Cleaning & EDA
 
 Handles missing values and outliers
