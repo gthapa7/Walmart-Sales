@@ -6,7 +6,7 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 
 ---
 
-## \\ud83d\\udd0c Project Structure
+## 🔄 Project Structure
 ```
 .
 ├── Walmart.csv              # Raw data file
@@ -23,14 +23,14 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 ```
 ---
 
-## \\ud83d\\uddaa Data Cleaning and Exploratory Data Analysis (EDA)
+## 🧹 Data Cleaning and Exploratory Data Analysis (EDA)
 
 - Handles missing values and outliers
 - Explores key sales trends
 
 ---
 
-## \\u2699\\ufe0f Feature Engineering
+## ⚙️ Feature Engineering
 
 - Creates time-based features (Year, Month, Week, etc.)
 - Implements lag & rolling statistics
@@ -38,20 +38,20 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 
 ---
 
-## \\ud83e\\udde0 Model Training
+## 🧠 Model Training
 
 - Focuses on modular functions for Random Forest, XGBoost, and LightGBM
 
 ---
 
-## \\ud83d\\udcca Evaluation Metrics
+## 📊 Evaluation Metrics
 
 - **Metrics used:** RMSE, MAE, R²
 - Ensures fair model comparison
 
 ---
 
-## \\ud83d\\udcc8 Data Visualization
+## 📈 Data Visualization
 
 - Includes actual vs. predicted plots
 - Highlights feature importance
@@ -59,33 +59,33 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 
 ---
 
-## \\ud83d\\udd04 Reproducibility
+## 🔄 Reproducibility
 
 - All code and dependencies are documented for easy reusability
 ---
 
-## \\ud83d\\udce6 Requirements
+## 📦 Requirements
 
 - Install dependencies from `requirements.txt`
 - Details are explained in `Requirements.ipynb`
 
 ---
 
-## \\ud83c\\udfc6 Results Overview
+## 🏆 Results Overview
 
 - **Best performer:** LightGBM achieved the best performance with:
   - Lowest RMSE & MAE
   - Highest R²
-  
+
 ---
 
-## \\ud83d\\udcdc License
+## 📜 License
 
 This project was created for **educational and demonstration purposes** only. Feel free to **fork, modify, and enhance**.
 
 ---
 
-## \\u2699\\ufe0f How to Use
+## ⚙️ How to Use
 
 1. **Clone this repository**:
     ```bash
