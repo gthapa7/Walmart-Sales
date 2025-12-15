@@ -6,102 +6,103 @@ The workflow covers **data cleaning, feature engineering, model training, evalua
 
 ---
 
-## 📂 Project Structure
-
+## \\ud83d\\udd0c Project Structure
+```
 .
-├── Walmart.csv # Raw data file
-├── data_cleaning.ipynb # Data cleaning and EDA notebook
-├── Random_Forest.ipynb # Random Forest modeling notebook
-├── XGBOOST.ipynb # XGBoost modeling notebook
-├── LightGBM.ipynb # LightGBM modeling notebook
-├── Comparision.ipynb # Model comparison and visualization
-├── Requirements.ipynb # Documentation of requirements and imports
-├── requirements.txt # All dependencies for easy setup
+├── Walmart.csv              # Raw data file
+├── data_cleaning.ipynb      # Data cleaning and EDA notebook
+├── Random_Forest.ipynb      # Random Forest modeling notebook
+├── XGBOOST.ipynb            # XGBoost modeling notebook
+├── LightGBM.ipynb           # LightGBM modeling notebook
+├── Comparision.ipynb        # Model comparison and visualization
+├── Requirements.ipynb       # Documentation of requirements and imports
+├── requirements.txt         # All dependencies for easy setup
 └── src/
-├── init.py
-└── models.py # Model training and evaluation functions
+    ├── __init__.py          # Initialization module
+    └── models.py            # Model training and evaluation functions
+```
+---
 
+## \\ud83d\\uddaa Data Cleaning and Exploratory Data Analysis (EDA)
+
+- Handles missing values and outliers
+- Explores key sales trends
 
 ---
 
-## 🧹 Data Cleaning & EDA
+## \\u2699\\ufe0f Feature Engineering
 
-- Handles missing values and outliers  
-- Explores key sales trends  
-
----
-
-## ⚙️ Feature Engineering
-
-- Time-based features (Year, Month, Week, etc.)  
-- Lag & rolling statistics  
-- Interaction & categorical features  
+- Creates time-based features (Year, Month, Week, etc.)
+- Implements lag & rolling statistics
+- Includes interaction & categorical features
 
 ---
 
-## 🧠 Model Training
+## \\ud83e\\udde0 Model Training
 
-- Modular functions for Random Forest, XGBoost, and LightGBM  
-
----
-
-## 📊 Evaluation
-
-- Metrics: **RMSE, MAE, R²**  
-- Fair model comparison  
+- Focuses on modular functions for Random Forest, XGBoost, and LightGBM
 
 ---
 
-## 📈 Visualization
+## \\ud83d\\udcca Evaluation Metrics
 
-- Actual vs. predicted plots  
-- Feature importance  
-- Error analysis  
-
----
-
-## 🔄 Reproducibility
-
-- All code and requirements are documented for easy reuse  
-
----
-## 📦 Requirements
-
-- All dependencies are listed in `requirements.txt`  
-- Detailed explanation in `Requirements.ipynb`  
+- **Metrics used:** RMSE, MAE, R²
+- Ensures fair model comparison
 
 ---
 
-## 🏆 Results
+## \\ud83d\\udcc8 Data Visualization
 
-- **LightGBM** achieved the best performance:  
-  - Lowest RMSE & MAE  
-  - Highest R²  
-- All models provide strong predictive accuracy, but **LightGBM is recommended for deployment**.  
-
----
-
-## 📜 License
-
-This project is for **educational and demonstration purposes**.  
-Feel free to **copy, modify, and expand** this repository.  
+- Includes actual vs. predicted plots
+- Highlights feature importance
+- Performs error analysis
 
 ---
 
-## ⚙️ How to Use
+## \\ud83d\\udd04 Reproducibility
 
-1. **Install dependencies**  
-```bash
-pip install -r requirements.txt
-1. **Run the notebooks in order:**  
-   - `data_cleaning.ipynb`  
-   - `Random_Forest.ipynb` / `XGBOOST.ipynb` / `LightGBM.ipynb`  
-   - `Comparision.ipynb`  
+- All code and dependencies are documented for easy reusability
+---
 
-2. **Use modular functions:**  
-   - The `models.py` script contains reusable functions for training and evaluating models in your own notebooks or scripts.  
+## \\ud83d\\udce6 Requirements
 
- 
+- Install dependencies from `requirements.txt`
+- Details are explained in `Requirements.ipynb`
 
+---
 
+## \\ud83c\\udfc6 Results Overview
 
+- **Best performer:** LightGBM achieved the best performance with:
+  - Lowest RMSE & MAE
+  - Highest R²
+  
+---
+
+## \\ud83d\\udcdc License
+
+This project was created for **educational and demonstration purposes** only. Feel free to **fork, modify, and enhance**.
+
+---
+
+## \\u2699\\ufe0f How to Use
+
+1. **Clone this repository**:
+    ```bash
+    git clone https://github.com/gthapa7/Walmart-Sales.git
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run notebooks in sequence**:
+    - `data_cleaning.ipynb`
+    - Choose one: `Random_Forest.ipynb` / `XGBOOST.ipynb` / `LightGBM.ipynb`
+    - Finally: `Comparision.ipynb`
+
+4. **Leverage modular functions from `models.py`**:
+    - Simply import the utilities provided for custom implementations.
+
+---
